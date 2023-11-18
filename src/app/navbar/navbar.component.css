@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.nav-icon {
+  margin-left: 20px;
+  height: 28px;
+  width: 28px;
+}
+.btn-blue {
+  background-color: blue;
+}
+.navbar {
+  padding: 20px 30px !important;
+}
+.navbar-brand {
+   font-family: 'Bebas Neue', sans-serif;
+    margin-bottom: 0;
+}
+ .navbar-legal{
+  font-size: 40px !important;
+ }
+
+.nav-link {
+  cursor: pointer;
+}
+
+.navbar--right-side > a {
+  margin-left: 30px;
+}
+
+.navbar--right-side {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
